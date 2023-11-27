@@ -1,3 +1,5 @@
+# What are LoRa® and LoRaWAN®?
+https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-and-lorawan/
 # 1121LoRa
 Reference for miniLoRa nodes test. 
 Arduino Nano pinout https://www.electronicshub.org/arduino-nano-pinout/
