@@ -16,6 +16,6 @@ https://projecthub.arduino.cc/najad/interfacing-and-displaying-images-on-oled-08
 [TAIWAN IOT OLED](https://www.taiwaniot.com.tw/product/1-3%e5%90%8boled-%e6%b6%b2%e6%99%b6%e5%b1%8f%e9%a1%af%e7%a4%ba%e6%a8%a1%e7%b5%84/)
 ![image](https://github.com/iiotntust/1121LoRa/assets/56021651/20eb5174-7382-4eef-a24a-83b294d027b2)
 # OLED Library support 
-[supported devices (SSD1325, ST7565, ST7920, UC1608, UC1610, UC1701, PCD8544, PCF8812, KS0108, LC7981, SBN1661, SSD1306, SH1106, T6963, LD7032)] https://github.com/olikraus/u8glib
+[Supported devices (SSD1325, ST7565, ST7920, UC1608, UC1610, UC1701, PCD8544, PCF8812, KS0108, LC7981, SBN1661, SSD1306, SH1106, T6963, LD7032)] https://github.com/olikraus/u8glib
 # What are LoRa® and LoRaWAN®?
 https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-and-lorawan/
