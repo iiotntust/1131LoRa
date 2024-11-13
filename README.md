@@ -1,4 +1,4 @@
-# 1121LoRa
+# 1131LoRa
 Reference for miniLoRa nodes test. 
 Arduino Nano pinout https://www.electronicshub.org/arduino-nano-pinout/
 Arduino Nano supports three different types of communication interfaces. They are:
@@ -8,12 +8,12 @@ SPI: miniLoRa module
 
 ![image](https://github.com/iiotntust/1121LoRa/assets/56021651/01b85e11-26be-4319-b38f-6652724ed956)
 
-# Arduino Nano Using Median Filter to Display DHT22 and RTC
+# Arduino Nano Using Median Filter to Display DHT22 and RTC (Reference)
 https://projecthub.arduino.cc/VE1DX/arduino-nano-using-median-filter-to-display-dht22-and-rtc-f725d2
 # Interfacing and Displaying Images on OLED
 https://projecthub.arduino.cc/najad/interfacing-and-displaying-images-on-oled-08b4f2
 # 1.3" OLED module - I2C, 4-pin ((GND VCC SCL SDA)
-[TAIWAN IOT OLED](https://www.taiwaniot.com.tw/product/1-3%e5%90%8boled-%e6%b6%b2%e6%99%b6%e5%b1%8f%e9%a1%af%e7%a4%ba%e6%a8%a1%e7%b5%84/)
+[TAIWAN IOT OLED](https://www.taiwaniot.com.tw/product/1-3%e5%90%8boled-%e6%b6%b2%e6%99%b6%e5%b1%8f%e9%a1%af%e7%a4%ba%e6%a8%a1%e7%b5%84/)  
 ![image](https://github.com/iiotntust/1121LoRa/assets/56021651/20eb5174-7382-4eef-a24a-83b294d027b2)
 site:
 https://blog.jmaker.com.tw/arduino-sh1106-oled/  
@@ -23,3 +23,14 @@ https://github.com/wonho-maker/Adafruit_SH1106
 [Supported devices (SSD1325, ST7565, ST7920, UC1608, UC1610, UC1701, PCD8544, PCF8812, KS0108, LC7981, SBN1661, SSD1306, SH1106, T6963, LD7032)] https://github.com/olikraus/u8glib
 # What are LoRa® and LoRaWAN®?
 https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-and-lorawan/
+# Detail about this hans-on
+- We use Lora with arduino to simulate Fram
+# Build up environment
+- First, download arduino
+> [!CAUTION]
+> - Second, don't forget to download the CH340 driver if your computer hasn't installed it yet.  
+> (download CH340 driver) https://www.arduined.eu/ch340-windows-10-driver-download/  
+> (how to install) https://forum.arduino.cc/t/how-to-install-ch340-driver-for-windows-11/1154087 
+
+## include Arduino library
+- We have 2 library 
