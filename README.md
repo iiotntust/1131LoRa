@@ -3,7 +3,6 @@ Reference for miniLoRa nodes test.
 Arduino Nano pinout https://www.electronicshub.org/arduino-nano-pinout/
 Arduino Nano supports three different types of communication interfaces. They are:
 Serial: Tx, Rx 
-I2C or I2C: OLED screen
 SPI: miniLoRa module
 
 ![image](https://github.com/iiotntust/1121LoRa/assets/56021651/01b85e11-26be-4319-b38f-6652724ed956)
@@ -27,7 +26,7 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 - We are using LoRa and Arduino to simulate a large farm environment with one transmitter and one receiver.
 - So we have two weeks to practice this.
 ## Wiring diagram (Start from transmitter)
-![image]()  
+![image](picture/transmitter_wiring_diagram.drawio.png)  
 > [!NOTE]
 > Please ensure that the LoRa antenna is installed.
 > Ensure your connection is correct so that you can view LoRa link results.
@@ -43,31 +42,31 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 - We have 2 library need to include.
 - 1. LoRa library
 - 2. DHT sensor library  
-![image]()
-![image]()  
+![image](picture/lora_lib.png)
+![image](https://github.com/iiotntust/1131blynk/blob/f00330f0db9a0be6d4a988c76a825adcc963ba87/picture/DHT_library.png)  
 ### IDE setting
 * Find nano board from tool -> board -> Arduino AVR boards -> Arduino nano
-![image]()  
+![image](picture/nano_board.png)  
 * Find the right port from device manager
-![image]()  
+![image](picture/device.png)  
 > [!CAUTION]
 > If your device manager tells you the port is USB Serial(COMX) instead of CH340
 > That means this nano is broken, please change another nano board.
 
 ### Uplaod the code
 - After finish those setting, you can verify code and upload to nano.
-![image]()  
+![image](picture/upload.png)  
 ## See result(Transmitter)
 * Your upload would be like this.
-![image]()  
+![image](picture/upload_done.png)  
 * Open Serial Monitor
-![image]()  
+![image](picture/Monitor.png)  
 * Follow monitor setting
 * Correct result would be like this.
-![image]()  
+![image](picture/Monitor_settting.png)  
 > [!CAUTION]
 > If your monitor show this.
-> ![image]()  
+> ![image](picture/fail.png)  
 > Please press the reset botton on the nano few times until starting OK, otherwise check your wire connection, it should be wrong at somewhere.
 
 ## Wiring diagram (receiver)
