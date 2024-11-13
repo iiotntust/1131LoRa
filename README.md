@@ -61,13 +61,13 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 ## See result(Transmitter)
 * Your upload would be like this.
 ![image](picture/upload_done.png)  
-* Open Serial Monitor
+* Open Serial Monitor  
 ![image](picture/Monitor.png)  
 * Follow monitor setting
 * Correct result would be like this.
 ![image](picture/Monitor_settting.png)  
 > [!CAUTION]
-> If your monitor show this.
+> If your monitor show this.  
 > ![image](picture/fail.png)  
 > Please press the reset botton on the nano few times until starting OK, otherwise check your wire connection, it should be wrong at somewhere.
 
