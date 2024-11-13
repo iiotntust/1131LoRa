@@ -24,7 +24,8 @@ https://github.com/wonho-maker/Adafruit_SH1106
 # What are LoRa® and LoRaWAN®?
 https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-and-lorawan/
 # Detail about this hans-on
-- We use Lora with arduino to simulate Fram
+- We are using LoRa and Arduino to simulate a large farm environment with one transmitter and one receiver.
+- So we have two weeks to practice this.
 # Build up environment
 - First, download arduino
 > [!CAUTION]
@@ -32,5 +33,10 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 > (download CH340 driver) https://www.arduined.eu/ch340-windows-10-driver-download/  
 > (how to install) https://forum.arduino.cc/t/how-to-install-ch340-driver-for-windows-11/1154087 
 
-## include Arduino library
-- We have 2 library 
+## Include Arduino library (Start from transmitter)
+- We have 2 library need to include.
+- 1. LoRa library
+- 2. DHT sensor library
+![image]()
+![image]()  
+## Wiring diagram
