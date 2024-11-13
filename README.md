@@ -65,6 +65,7 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 ![image](picture/Monitor.png)  
 * Follow monitor setting
 * Correct result would be like this.
+* Also your nano will blink when data trasmit.
 ![image](picture/Monitor_settting.png)  
 > [!CAUTION]
 > If your monitor show this.  
@@ -72,3 +73,22 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 > Please press the reset botton on the nano few times until starting OK, otherwise check your wire connection, it should be wrong at somewhere.
 
 ## Wiring diagram (receiver)
+![image]()  
+> [!NOTE]
+> Please ensure that the LoRa antenna is installed.
+> Ensure your connection is correct so that you can view LoRa link results.
+
+## Build up environment
+- We have 3 library need to include.
+- 1. LoRa library
+- 2. Adafruit GFX library
+![image]()  
+- 3. Adafruit_SH1106 library
+> [!NOTE]
+> This libray is special one, you can't find it on library manager.
+> We have to download on internet.
+> https://github.com/wonho-maker/Adafruit_SH1106
+> ![image]()  
+> Unzip the file
+> ![image]()  
+> Usually, Arduino's library file is in C:\Users\user\Documents\Arduino
