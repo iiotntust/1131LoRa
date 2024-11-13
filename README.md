@@ -26,17 +26,48 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 # Detail about this hans-on
 - We are using LoRa and Arduino to simulate a large farm environment with one transmitter and one receiver.
 - So we have two weeks to practice this.
-# Build up environment
+## Wiring diagram (Start from transmitter)
+![image]()  
+> [!NOTE]
+> Please ensure that the LoRa antenna is installed.
+> Ensure your connection is correct so that you can view LoRa link results.
+
+## Build up environment
 - First, download arduino
 > [!CAUTION]
 > - Second, don't forget to download the CH340 driver if your computer hasn't installed it yet.  
 > (download CH340 driver) https://www.arduined.eu/ch340-windows-10-driver-download/  
-> (how to install) https://forum.arduino.cc/t/how-to-install-ch340-driver-for-windows-11/1154087 
+> (how to install) https://forum.arduino.cc/t/how-to-install-ch340-driver-for-windows-11/1154087  
 
-## Include Arduino library (Start from transmitter)
+## Include Arduino library 
 - We have 2 library need to include.
 - 1. LoRa library
-- 2. DHT sensor library
+- 2. DHT sensor library  
 ![image]()
 ![image]()  
-## Wiring diagram
+### IDE setting
+* Find nano board from tool -> board -> Arduino AVR boards -> Arduino nano
+![image]()  
+* Find the right port from device manager
+![image]()  
+> [!CAUTION]
+> If your device manager tells you the port is USB Serial(COMX) instead of CH340
+> That means this nano is broken, please change another nano board.
+
+### Uplaod the code
+- After finish those setting, you can verify code and upload to nano.
+![image]()  
+## See result(Transmitter)
+* Your upload would be like this.
+![image]()  
+* Open Serial Monitor
+![image]()  
+* Follow monitor setting
+* Correct result would be like this.
+![image]()  
+> [!CAUTION]
+> If your monitor show this.
+> ![image]()  
+> Please press the reset botton on the nano few times until starting OK, otherwise check your wire connection, it should be wrong at somewhere.
+
+## Wiring diagram (receiver)
