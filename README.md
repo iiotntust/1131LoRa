@@ -26,7 +26,8 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 - We are using LoRa and Arduino to simulate a large farm environment with one transmitter and one receiver.
 - So we have two weeks to practice this.
 - Material:
-- Arduino nano board, mini LoRa board DHT11 sensor and several wire.
+- For transmitter: Arduino nano board, mini LoRa board DHT11 sensor and several wire.
+- For receiver: Arduino nano board, mini LoRa board, 1.3' OLED
 ## Wiring diagram (Start from transmitter)
 ![image](picture/transmitter_wiring_diagram.drawio.png)  
 > [!NOTE]
