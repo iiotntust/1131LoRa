@@ -40,6 +40,15 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 > (download CH340 driver) https://www.arduined.eu/ch340-windows-10-driver-download/  
 > (how to install) https://forum.arduino.cc/t/how-to-install-ch340-driver-for-windows-11/1154087  
 
+## Download the code
+- Download code from here
+![image](picture/download_code.png)  
+![image](picture/unzip1.png)  
+![image](picture/unzip2.png)  
+![image](picture/unzip3.png)  
+![image](picture/unzip4.png)  
+![image](picture/unzip5.png)  
+![image](picture/unzip6.png)  
 ## Include Arduino library 
 - We have 2 library need to include.
 - 1. LoRa library
@@ -73,7 +82,7 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 > Please press the reset botton on the nano few times until starting OK, otherwise check your wire connection, it should be wrong at somewhere.
 
 ## Wiring diagram (receiver)
-![image]()  
+![image](picture/reciver_wiring_diagram.drawio.png)  
 > [!NOTE]
 > Please ensure that the LoRa antenna is installed.
 > Ensure your connection is correct so that you can view LoRa link results.
@@ -82,13 +91,15 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 - We have 3 library need to include.
 - 1. LoRa library
 - 2. Adafruit GFX library
-![image]()  
+![image](picture/GFX_lib_1.png)  
+![image](picture/GFX_lib_2.png)  
 - 3. Adafruit_SH1106 library
 > [!NOTE]
 > This libray is special one, you can't find it on library manager.
-> We have to download on internet.
+> We have to download on internet.  
 > https://github.com/wonho-maker/Adafruit_SH1106
-> ![image]()  
-> Unzip the file
-> ![image]()  
-> Usually, Arduino's library file is in C:\Users\user\Documents\Arduino
+> ![image](picture/SH1106_download.png)  
+> * Unzip the file, and put the folder to C:\Users\user\Documents\Arduino (Just like what you download this hands-on code)  
+> * Usually, Arduino's library file is in C:\Users\user\Documents\Arduino
+> ![image](picture/library.png)  
+> ![image](picture/library2.png)  
