@@ -94,7 +94,7 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 ## Build up environment
 - We have 3 library need to include.
 - 1. LoRa library
-- 2. Adafruit GFX library
+- 2. Adafruit GFX library  
 ![image](picture/GFX_lib_1.png)  
 ![image](picture/GFX_lib_2.png)  
 - 3. Adafruit_SH1106 library
@@ -103,8 +103,8 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 > We have to download on internet.  
 > https://github.com/wonho-maker/Adafruit_SH1106
 > ![image](picture/SH1106_download.png)  
-> * Unzip the file, and put the folder in C:\Users\user\Documents\Arduino (Just like how you download this hands-on's code)  
-> * Usually, Arduino's library file is in C:\Users\user\Documents\Arduino
+> * **Unzip the file, and put the folder in C:\Users\user\Documents\Arduino (Just like how you download this hands-on's code)**
+> * **Usually, Arduino's library file is in C:\Users\user\Documents\Arduino**
 > ![image](picture/library.png)  
 > ![image](picture/library2.png)  
 
