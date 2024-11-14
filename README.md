@@ -87,6 +87,10 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 > Please ensure that the LoRa antenna is installed.
 > Ensure your connection is correct so that you can view LoRa link results.
 
+## Download the code
+- Like how you download transmitter's code
+![image](picture/unzip1_1.png)  
+![image](picture/unzip1_2.png)  
 ## Build up environment
 - We have 3 library need to include.
 - 1. LoRa library
@@ -99,9 +103,23 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 > We have to download on internet.  
 > https://github.com/wonho-maker/Adafruit_SH1106
 > ![image](picture/SH1106_download.png)  
-> * Unzip the file, and put the folder to C:\Users\user\Documents\Arduino (Just like what you download this hands-on code)  
+> * Unzip the file, and put the folder in C:\Users\user\Documents\Arduino (Just like how you download this hands-on's code)  
 > * Usually, Arduino's library file is in C:\Users\user\Documents\Arduino
 > ![image](picture/library.png)  
 > ![image](picture/library2.png)  
 
-## Download the code
+### IDE setting
+- It is as same as transmitter's setting.
+- But the port will different if you plug two device at the same time.
+> [!CAUTION]
+> If your device manager tells you the port is USB Serial(COMX) instead of CH340
+> That means this nano is broken, please change another nano board.
+
+### Uplaod the code
+- After finish those setting, you can verify code and upload to nano.
+![image](picture/upload.png)  
+## See result(Receiver)
+* Your upload would be like this.
+![image]()  
+* You also can see the result on receiver's screen.
+* **RSSI tells you the strength of the signal you're currently receiving.**
