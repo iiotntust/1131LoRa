@@ -124,3 +124,9 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 ![image]()  
 * You also can see the result on receiver's screen.
 * **RSSI tells you the strength of the signal you're currently receiving.**
+## Additional
+- Setting spreading factor and setting different frequrency(each team can set from 850MHZ to 930MHZ)
+![image]()  
+> [!NOTE]
+> The receiver's SF must also match the transmitter's SF; otherwise, the message cannot be received.
+> ![image]()  
