@@ -59,6 +59,8 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 ### IDE setting
 * Find nano board from tool -> board -> Arduino AVR boards -> Arduino nano
 ![image](picture/nano_board.png)  
+* Choose right processor
+![image](picture/oldboot.png)  
 * Find the right port from device manager
 ![image](picture/device.png)  
 > [!CAUTION]
@@ -125,8 +127,8 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 * You also can see the result on receiver's screen.
 * **RSSI tells you the strength of the signal you're currently receiving.**
 ## Additional
-- Setting spreading factor and setting different frequrency(each team can set from 850MHZ to 930MHZ)
+- **Setting spreading factor and setting different frequrency(each team can set from 850MHZ to 930MHZ)**
 ![image](picture/setfactor.png)  
 > [!NOTE]
-> The receiver's SF must also match the transmitter's SF; otherwise, the message cannot be received.
+> **The receiver's SF must also match the transmitter's SF; otherwise, the message cannot be received.**
 > ![image](picture/same_SF.png)  
