@@ -134,6 +134,6 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 > ![image](picture/same_SF.png)
 >
 > # LoRa Gateway
-> ![image](picture/image.png)
+> ![image](picture/image2.png)
 > ## Wiring diagram
 > ![image](picture/image12.png)
