@@ -131,4 +131,7 @@ https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-an
 ![image](picture/setfactor.png)  
 > [!NOTE]
 > **The receiver's SF must also match the transmitter's SF; otherwise, the message cannot be received.**
-> ![image](picture/same_SF.png)  
+> ![image](picture/same_SF.png)
+>
+> # LoRa Gateway
+> ![image](picture/image.png)
